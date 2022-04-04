@@ -1,0 +1,10 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo "\n*********************************"
+echo "🔥 Prettier Code Formatting... 🔥"
+echo "*********************************\n"
+yarn lint-staged
+echo "\n*********************************"
+echo "⭐️    Code Format Complete!    ⭐️"
+echo "*********************************\n"
